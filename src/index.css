@@ -19,13 +19,14 @@ body {
   background-color: black;
   border-bottom: 2px solid orange;
   position: fixed;
-  width: 100%;
   top: 0;
+  width: 100%;
   z-index: 2;
 }
 
 #nav_bar ul {
   list-style-type: none;
+  display: flex;
 }
 
 #nav_bar h1 {
@@ -89,6 +90,8 @@ body {
   font-size: 60px;
   color: orange;
   opacity: 1;
+  position: fixed;
+  word-wrap: break-word;
 }
 
 #main_sec span {
@@ -102,7 +105,8 @@ body {
 }
 
 #main1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 
 #div1 {
@@ -117,6 +121,7 @@ body {
 #interest_box {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #box1 {
