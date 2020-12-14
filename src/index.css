@@ -22,6 +22,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 2;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 #nav_bar ul {
@@ -87,11 +88,13 @@ body {
 }
 
 #main_sec h1 {
-  font-size: 60px;
+  font-size: 55px;
   color: orange;
   opacity: 1;
   position: fixed;
   word-wrap: break-word;
+  margin: 120px 20px 20px 20px;
+  margin-right: 50%;
 }
 
 #main_sec span {
@@ -113,8 +116,14 @@ body {
   margin: 10px 10px 10px 10px;
 }
 
+#div1 h4 {
+  margin: 70px 20px 20px 20px;
+  position: fixed;
+}
+
 #div2 {
-  margin: 10px 10px 10px 50px;
+  margin: 80px 10px 10px 50px;
+  padding: 0px 30px 0px 30px;
   text-align: center;
 }
 
@@ -185,14 +194,46 @@ body {
 /* footer */
 
 #footer {
-  width: 80%;
-  height: 60px;
   background-color: black;
+  margin: 555px 20px 20px 20px;
+  position: fixed;
+  margin-right: 50%;
+  margin-bottom: 20%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 #footer ul {
   list-style-type: none;
 }
 
+#footer i {
+  color: purple;
+  font-size: 20px;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+#footer i:hover {
+  color: rgb(11, 194, 90);
+  opacity: 1;
+}
+
 #footer li {
   float: left;
+  padding: 15px 20px 15px 20px;
+  margin: 0px 40px 0px 40px;
+  border-right: 50px transparent;
+}
+
+#div1_ext {
+  margin: 300px 10px 10px 10px;
+  position: fixed;
+}
+
+#div1_ext ul {
+  list-style-type: none;
+}
+
+#div1_ext li {
+  padding: 20px 20px 20px 20px;
+  opacity: 0.6;
 }

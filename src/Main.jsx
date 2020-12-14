@@ -7,7 +7,21 @@ function Main(){
                 <div id="div1">
                     <h4>Hi there!</h4>
                     <h1><span>I'm</span> Akarsh Malik</h1>
-            
+                    <div id="div1_ext">
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Haridwar, Uttarakhand</li>
+                            <li><i class="fas fa-birthday-cake"></i> 20 years</li>
+                            <li><i class="fas fa-user-graduate"></i> NIT Tiruchirappalli</li>
+                        </ul>
+                    </div>
+                    <div id="footer">
+                        <ul>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i className="fab fa-github"></i></a></li>
+                            <li><a href="#"><i className="fas fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div id="div2">
                     <h2>About Me</h2>
@@ -33,7 +47,6 @@ function Main(){
                             <p>I spend most of my time coding</p>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </main>
