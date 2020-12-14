@@ -14,9 +14,14 @@ body {
 #nav_bar {
   overflow: hidden;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   background-color: black;
   border-bottom: 2px solid orange;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
 }
 
 #nav_bar ul {
