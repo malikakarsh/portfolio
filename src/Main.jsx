@@ -24,29 +24,29 @@ function Main(){
                     </div>
                 </div>
                 <div id="div2">
-                    <h2 id="hello"><span>About Me</span></h2>
-                    <p>I'm an Instrumentation and Control sophomore pursuing my b.tech in National Institute of Technology, Tiruchirappalli.</p>
-                    <p>Currently a system administrator at <a href="#">Delta Force</a> (premiere coding club of NITT).</p>
-                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Interests</span></h3>
-                    <div id="interest_box">
-                        <div id="box1">
-                            <i className="fas fa-table-tennis"></i>
+                        <h2 id="hello"><span>About Me</span></h2>
+                        <p>I'm an Instrumentation and Control sophomore pursuing my b.tech in National Institute of Technology, Tiruchirappalli.</p>
+                        <p>Currently a system administrator at <a href="#">Delta Force</a> (premiere coding club of NITT).</p>
+                        <h3 style={{margin: "20px 10px 20px 10px"}}><span>Interests</span></h3>
+                        <div id="interest_box">
+                            <div id="box1">
+                                <i className="fas fa-table-tennis"></i>
+                                <hr></hr>
+                                <h4>Sports</h4>
+                                
+                                <p>I love playing Badminton and T.T</p>
+                            </div>
+                            <div id="box2"><i className="fas fa-microphone-alt"></i>
+                                <hr></hr>
+                                <h4>Music</h4>
+                                <p>I enjoy singing and playing guitar</p>
+                            </div>
+                            <div id="box3"><i className="fas fa-code"></i>
                             <hr></hr>
-                            <h4>Sports</h4>
-                            
-                            <p>I love playing Badminton and T.T</p>
+                                <h4>Coding</h4>
+                                <p>I'm into coding since feb 2020</p>
+                            </div>
                         </div>
-                        <div id="box2"><i className="fas fa-microphone-alt"></i>
-                            <hr></hr>
-                            <h4>Music</h4>
-                            <p>I enjoy singing and playing guitar</p>
-                        </div>
-                        <div id="box3"><i className="fas fa-code"></i>
-                        <hr></hr>
-                            <h4>Coding</h4>
-                            <p>I'm into coding since feb 2020</p>
-                        </div>
-                    </div>
                     <h2 id="hello2" style={{margin: "20px 10px 20px 10px"}}><span>Skills</span></h2>
                     <ul>
                         <li><i class="fas fa-tools"></i> <span>System Administration</span></li>
