@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(){
     return (
-        <div id="footer">
+        <div id="last_footer">
                         <ul>
                             <li><a href="#"><i className="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i className="fab fa-linkedin"></i></a></li>

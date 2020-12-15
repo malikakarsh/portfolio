@@ -27,24 +27,24 @@ function Main(){
                     <h2>About Me</h2>
                     <p>I'm an Instrumentation and Control sophomore pursuing my b.tech in National Institute of Technology, Tiruchirappalli.</p>
                     <p>I'm a system administrator at <a href="#">Delta Force</a> (coding club of NITT).</p>
-                    <h2 style={{margin: "10px 10px 10px 10px"}}>Interests</h2>
+                    <h2 style={{margin: "20px 10px 20px 10px"}}>Interests</h2>
                     <div id="interest_box">
                         <div id="box1">
                             <i className="fas fa-table-tennis"></i>
                             <hr></hr>
                             <h4>Sports</h4>
                             
-                            <p>I like playing badminton and T.T</p>
+                            <p>I love playing Badminton and T.T</p>
                         </div>
                         <div id="box2"><i className="fas fa-microphone-alt"></i>
                             <hr></hr>
                             <h4>Music</h4>
-                            <p>I like to sing and play guitar</p>
+                            <p>I enjoy singing and playing guitar</p>
                         </div>
                         <div id="box3"><i className="fas fa-code"></i>
                         <hr></hr>
                             <h4>Coding</h4>
-                            <p>I spend most of my time coding</p>
+                            <p>I'm into coding since feb 2020</p>
                         </div>
                     </div>
                 </div>

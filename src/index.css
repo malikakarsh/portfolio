@@ -8,7 +8,7 @@ body {
   background-color: rgb(41, 41, 41);
 }
 @import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Roboto+Mono:wght@200;500&display=swap");
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
   #nav_bar {
     overflow: hidden;
     display: flex;
@@ -30,7 +30,7 @@ body {
 
   #nav_bar h1 {
     font-family: "East Sea Dokdo", cursive;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500;
     color: white;
     margin: 0px 40px 0px 7%;
@@ -48,16 +48,17 @@ body {
   }
 
   #nav_bar span {
+    display: none;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px 10px 2px;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     opacity: 0.6;
     transition: 0.3s;
   }
 
   .fas {
-    font-size: 24px;
+    font-size: 15px;
     color: white;
     display: inline-block;
     text-rendering: auto;
@@ -75,7 +76,7 @@ body {
   #main_sec {
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
-    margin: 5% 20px 10px 7%;
+    margin: 20px 20px 10px 20px;
     color: white;
   }
 
@@ -91,7 +92,7 @@ body {
     opacity: 1;
     word-wrap: break-word;
     margin: 0px 20px 20px 20px;
-    margin-right: 50%;
+    margin-right: 20%;
   }
 
   #main_sec span {
@@ -110,7 +111,7 @@ body {
   }
 
   #div1 {
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 40px;
   }
 
   #div1 h4 {
@@ -118,7 +119,7 @@ body {
   }
 
   #div2 {
-    margin: 80px 10px 10px 50px;
+    margin: 80px 10px 10px 20px;
     padding: 0px 30px 0px 30px;
     text-align: center;
   }
@@ -130,8 +131,8 @@ body {
   }
 
   #box1 {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 230px;
     background-color: rgb(34, 33, 33);
     border-radius: 20px;
     text-align: center;
@@ -141,12 +142,12 @@ body {
 
   #box1 i {
     margin: 20% 30%;
-    font-size: 80px;
+    font-size: 20px;
   }
 
   #box2 {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 230px;
     background-color: rgb(34, 33, 33);
     border-radius: 20px;
     text-align: center;
@@ -156,12 +157,12 @@ body {
 
   #box2 i {
     margin: 20% 30%;
-    font-size: 80px;
+    font-size: 20px;
   }
 
   #box3 {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 230px;
     background-color: rgb(34, 33, 33);
     border-radius: 20px;
     text-align: center;
@@ -171,7 +172,17 @@ body {
 
   #box3 i {
     margin: 20% 30%;
-    font-size: 80px;
+    font-size: 20px;
+  }
+
+  #box1 h4 {
+    font-size: 20px;
+  }
+  #box2 h4 {
+    font-size: 20px;
+  }
+  #box3 h4 {
+    font-size: 20px;
   }
 
   #div2 h2 {
@@ -180,6 +191,7 @@ body {
 
   #div2 p {
     padding: 20px 20px 0px 20px;
+    font-size: 15px;
   }
 
   #div2 a {
@@ -190,11 +202,8 @@ body {
   /* footer */
 
   #footer {
-    background-color: black;
-    margin: 555px 20px 20px 20px;
-    position: fixed;
-    margin-right: 50%;
-    margin-bottom: 20%;
+    display: none;
+    margin: 10px 20px 20px 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
   #footer ul {
@@ -227,7 +236,7 @@ body {
 
   #div1_ext i {
     font-size: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   #div1_ext ul {
@@ -237,6 +246,37 @@ body {
   #div1_ext li {
     padding: 10px 20px 10px 20px;
     opacity: 0.6;
+  }
+
+  #last_footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0px 0px 0px 0px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  #last_footer ul {
+    list-style-type: none;
+    justify-content: center;
+  }
+
+  #last_footer i {
+    color: purple;
+    font-size: 20px;
+    opacity: 0.6;
+    transition: 0.5s;
+  }
+
+  #last_footer i:hover {
+    color: rgb(11, 194, 90);
+    opacity: 1;
+  }
+
+  #last_footer li {
+    float: left;
+    padding: 20px 20px 20px 10%;
+    margin: 0px 40px 0px 40px;
   }
 }
 
@@ -263,10 +303,10 @@ body {
 
   #nav_bar h1 {
     font-family: "East Sea Dokdo", cursive;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     color: white;
-    margin: 0px 40px 0px 7%;
+    margin: 0px 20px 0px 7%;
     opacity: 0.6;
   }
 
@@ -281,16 +321,17 @@ body {
   }
 
   #nav_bar span {
-    margin: 10px 40px 10px 0px;
+    display: inline;
+    margin: 10px 30px 10px 0px;
     padding: 10px 10px 10px 2px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     opacity: 0.6;
     transition: 0.3s;
   }
 
   .fas {
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     display: inline-block;
     text-rendering: auto;
@@ -415,6 +456,7 @@ body {
 
   #div2 p {
     padding: 20px 20px 0px 20px;
+    font-size: 15px;
   }
 
   #div2 a {
@@ -425,6 +467,7 @@ body {
   /* footer */
 
   #footer {
+    display: inline;
     background-color: black;
     margin: 555px 20px 20px 20px;
     position: fixed;
@@ -458,7 +501,7 @@ body {
   #div1_ext {
     margin: 300px 10px 10px 10px;
     position: fixed;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   #div1_ext ul {
@@ -468,6 +511,15 @@ body {
   #div1_ext li {
     padding: 10px 20px 10px 20px;
     opacity: 0.6;
+  }
+
+  #div1_ext i {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  #last_footer {
+    display: none;
   }
 }
 
@@ -698,5 +750,9 @@ body {
   #div1_ext li {
     padding: 10px 20px 10px 20px;
     opacity: 0.6;
+  }
+
+  #last_footer {
+    display: none;
   }
 }
