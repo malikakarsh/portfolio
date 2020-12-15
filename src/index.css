@@ -6,6 +6,7 @@
 
 body {
   background-color: rgb(41, 41, 41);
+  overflow-x: hidden;
 }
 @import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Roboto+Mono:wght@200;500&display=swap");
 @media screen and (min-width: 300px) {
@@ -54,7 +55,7 @@ body {
     color: white;
     font-size: 10px;
     opacity: 0.6;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
   .fas {
@@ -63,7 +64,7 @@ body {
     display: inline-block;
     text-rendering: auto;
     opacity: 0.6;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
   #nav_bar a:hover > * {
@@ -111,7 +112,7 @@ body {
   }
 
   #div1 {
-    margin: 10px 10px 10px 40px;
+    margin: 40px 10px 10px 40px;
   }
 
   #div1 h4 {
@@ -187,6 +188,23 @@ body {
 
   #div2 h2 {
     font-size: 40px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    background-color: black;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  #div2 h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
   }
 
   #div2 p {
@@ -278,6 +296,13 @@ body {
     padding: 20px 20px 20px 10%;
     margin: 0px 40px 0px 40px;
   }
+
+  #div2 li {
+    padding: 10px 10px 10px 20px;
+    list-style-type: none;
+    text-align: left;
+    margin: 10px 10px 10px 30px;
+  }
 }
 
 @media screen and (min-width: 995px) {
@@ -327,7 +352,7 @@ body {
     color: white;
     font-size: 15px;
     opacity: 0.6;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
   .fas {
@@ -336,7 +361,7 @@ body {
     display: inline-block;
     text-rendering: auto;
     opacity: 0.6;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
   #nav_bar a:hover > * {
@@ -365,7 +390,7 @@ body {
     opacity: 1;
     position: fixed;
     word-wrap: break-word;
-    margin: 120px 20px 20px 20px;
+    margin: 140px 20px 20px 20px;
     margin-right: 50%;
   }
 
@@ -389,7 +414,7 @@ body {
   }
 
   #div1 h4 {
-    margin: 70px 20px 20px 20px;
+    margin: 100px 20px 20px 30px;
     position: fixed;
   }
 
@@ -452,6 +477,27 @@ body {
 
   #div2 h2 {
     font-size: 40px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    background-color: black;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  #div2 h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #div2 h2 {
+    font-size: 40px;
   }
 
   #div2 p {
@@ -469,7 +515,7 @@ body {
   #footer {
     display: inline;
     background-color: black;
-    margin: 555px 20px 20px 20px;
+    margin: 600px 20px 20px 20px;
     position: fixed;
     margin-right: 50%;
     margin-bottom: 20%;
@@ -481,9 +527,11 @@ body {
 
   #footer i {
     color: purple;
-    font-size: 20px;
+    font-size: 25px;
     opacity: 0.6;
     transition: 0.5s;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   #footer i:hover {
@@ -499,7 +547,7 @@ body {
   }
 
   #div1_ext {
-    margin: 300px 10px 10px 10px;
+    margin: 350px 10px 10px 10px;
     position: fixed;
     font-size: 20px;
   }
@@ -520,6 +568,12 @@ body {
 
   #last_footer {
     display: none;
+  }
+
+  #div2 li {
+    list-style-type: none;
+    text-align: left;
+    margin: 10px 10px 10px 30px;
   }
 }
 
@@ -568,7 +622,7 @@ body {
     color: white;
     font-size: 20px;
     opacity: 0.6;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
   .fas {
@@ -577,7 +631,7 @@ body {
     display: inline-block;
     text-rendering: auto;
     opacity: 0.6;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
   #nav_bar a:hover > * {
@@ -606,7 +660,7 @@ body {
     opacity: 1;
     position: fixed;
     word-wrap: break-word;
-    margin: 120px 20px 20px 20px;
+    margin: 140px 20px 20px 20px;
     margin-right: 50%;
   }
 
@@ -630,7 +684,7 @@ body {
   }
 
   #div1 h4 {
-    margin: 70px 20px 20px 20px;
+    margin: 100px 20px 20px 20px;
     position: fixed;
   }
 
@@ -693,6 +747,27 @@ body {
 
   #div2 h2 {
     font-size: 40px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    background-color: black;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  #div2 h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #div2 h2 {
+    font-size: 40px;
   }
 
   #div2 p {
@@ -708,7 +783,7 @@ body {
 
   #footer {
     background-color: black;
-    margin: 555px 20px 20px 20px;
+    margin: 600px 20px 20px 20px;
     position: fixed;
     margin-right: 50%;
     margin-bottom: 20%;
@@ -720,9 +795,11 @@ body {
 
   #footer i {
     color: purple;
-    font-size: 20px;
+    font-size: 25px;
     opacity: 0.6;
     transition: 0.5s;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   #footer i:hover {
@@ -738,7 +815,7 @@ body {
   }
 
   #div1_ext {
-    margin: 300px 10px 10px 10px;
+    margin: 320px 10px 10px 10px;
     position: fixed;
     font-size: 20px;
   }
@@ -755,4 +832,25 @@ body {
   #last_footer {
     display: none;
   }
+
+  #div2 li {
+    list-style-type: none;
+    text-align: left;
+    margin: 10px 10px 10px 30px;
+  }
+}
+
+.interest_box2 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interest_box2 li {
+  float: left;
+  color: goldenrod;
+}
+
+.interest_box2 i {
+  font-size: 20px;
+  opacity: 0.6;
 }

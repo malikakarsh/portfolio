@@ -24,10 +24,10 @@ function Main(){
                     </div>
                 </div>
                 <div id="div2">
-                    <h2>About Me</h2>
+                    <h2 id="hello"><span>About Me</span></h2>
                     <p>I'm an Instrumentation and Control sophomore pursuing my b.tech in National Institute of Technology, Tiruchirappalli.</p>
-                    <p>I'm a system administrator at <a href="#">Delta Force</a> (coding club of NITT).</p>
-                    <h2 style={{margin: "20px 10px 20px 10px"}}>Interests</h2>
+                    <p>Currently a system administrator at <a href="#">Delta Force</a> (premiere coding club of NITT).</p>
+                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Interests</span></h3>
                     <div id="interest_box">
                         <div id="box1">
                             <i className="fas fa-table-tennis"></i>
@@ -47,6 +47,41 @@ function Main(){
                             <p>I'm into coding since feb 2020</p>
                         </div>
                     </div>
+                    <h2 id="hello2" style={{margin: "20px 10px 20px 10px"}}><span>Skills</span></h2>
+                    <ul>
+                        <li><i class="fas fa-tools"></i> <span>System Administration</span></li>
+                        <li><i class="fas fa-dna"></i> <span>Machine Learning</span></li>
+                        <li><i class="fas fa-file-code"></i> <span>Front-end Web Development</span></li>
+                    </ul>
+                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Programming Language</span></h3>
+                    <div className="interest_box2">
+                       <ul>
+                           <li><i class="devicon-python-plain"></i> <span>Python</span></li>
+                           <li><i class="devicon-cplusplus-plain"></i> <span>C++</span></li>
+                           <li><i class="devicon-mysql-plain"></i> <span>MySql</span></li>
+                           <li><i class="devicon-debian-plain"></i> <span>Bash</span></li>
+                           <li><i class="devicon-html5-plain"></i> <span>HTML</span></li>
+                           <li><i class="devicon-css3-plain"></i> <span>CSS</span></li>
+                           <li><i class="devicon-javascript-plain"></i> <span>JavaScript</span></li>
+                           <li><i class="devicon-react-original"></i> <span>React</span></li>
+                           <li><i class="devicon-php-plain"></i> <span>PHP</span></li>
+                           <li><i class="devicon-go-plain"></i> <span>Go</span></li>
+                       </ul> 
+                    </div>
+                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Tools and Technologies</span></h3>
+                    <div className="interest_box2">
+                       <ul>
+                           <li className="special"><i class="devicon-git-plain"></i> <span>Git</span></li>
+                           <li className="special"><i class="devicon-docker-plain"></i> <span>Docker</span></li>
+                           <li className="special"><i class="devicon-apache-plain"></i> <span>Apache</span></li>
+                           <li className="special"><i class="devicon-linux-plain"></i> <span>Linux</span></li>
+                           <li className="special"><i class="devicon-visualstudio-plain"></i> <span>VS Code</span></li>
+                       </ul> 
+                    </div>
+                    <h2 id="hello3" style={{margin: "20px 10px 20px 10px"}}><span>Projects</span></h2>
+                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Coming Soon....</span></h3>
+                    <h2 id="hello4" style={{margin: "20px 10px 20px 10px"}}><span>Achievements</span></h2>
+                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Coming Soon....</span></h3>
                 </div>
             </div>
         </main>
