@@ -19,9 +19,10 @@ function Main(){
                             <li><a href="https://twitter.com/AkarshMalik" target="_blank"><i className="fab fa-twitter"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/akarsh-malik-911221193/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
                             <li><a href="https://github.com/malikakarsh" target="_blank"><i className="fab fa-github"></i></a></li>
-                            <li><a href="#" target="_blank"><i className="fas fa-envelope"></i></a></li>
+                            <li><a href="mailto:malikakarsh@gmail.com" target="_blank"><i className="fas fa-envelope"></i></a></li>
                         </ul>
                     </div>
+                    <h3 id="made_with" style={{margin: "20px 10px 20px 10px",opacity: "0.6",fontFamily: "Poiret One, cursive"}}>Made with <i id="heart" style={{color: "red", fontSize: "25px"}} class="fas fa-heart"></i> by Akarsh</h3>
                 </div>
                 <div id="div2">
                         <h2 id="hello"><span>About Me</span></h2>
@@ -44,7 +45,7 @@ function Main(){
                             <div id="box3"><i className="fas fa-code"></i>
                             <hr></hr>
                                 <h4>Coding</h4>
-                                <p>I'm into coding since feb 2020</p>
+                                <p id="call_me">I'm into coding since feb 2020</p>
                             </div>
                         </div>
                     <h2 id="hello2" style={{margin: "20px 10px 20px 10px"}}><span>Skills</span></h2>
@@ -142,8 +143,21 @@ function Main(){
                         </div>
                     </div>
                     <h2 id="hello4" style={{margin: "20px 10px 20px 10px"}}><span>Achievements</span></h2>
-                    <div>
+                    <div id="last1">
                         <h3 style={{margin: "20px 10px 20px 10px"}}>Hacktober Fest</h3>
+                        <hr></hr>
+                        <p>Accomplished the hacktober fest hosted by <a href="https://hacktoberfest.digitalocean.com/profile" target="_blank">Digital Ocean</a>.</p>
+                    </div>
+                    <div id="last2">
+                        <h3 style={{margin: "20px 10px 20px 10px"}}>30 Days of Google Cloud</h3>
+                        <hr></hr>
+                        <p>Successfully  completed both the tracks (Machine Learning and Cloud Engineering) of <a href="https://www.qwiklabs.com/public_profiles/6bd87158-4009-4b76-b65e-609bf9efdd76" target="_blank">30 Days of Google Cloud</a>.</p>
+                    </div>
+
+                    <div id="last3">
+                        <h3 style={{margin: "20px 10px 20px 10px"}}>MTA Introduction to Programming with Python </h3>
+                        <hr></hr>
+                        <p>Achieved Microsoft certification after taking the <a href="https://www.youracclaim.com/badges/dce65294-9961-433b-a5ab-922a59080d73?source=linked_in_profile" target="_blank">Introduction to Programming with Python</a> test.</p>
                     </div>
                 </div>
             </div>
