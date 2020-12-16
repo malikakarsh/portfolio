@@ -4,7 +4,7 @@ import React from 'react';
 function Navigation(){
     return(
         <nav id="nav_bar">
-            <h1>malikakarsh.me</h1>
+            <h1>akarshmalik.me</h1>
             <ul>
                 <li><a href="#" ><i className="fas fa-user"></i> <span>About</span></a></li>
                 <li><a href="#call_me" ><i className="fas fa-brain"></i> <span>Skills</span></a></li>
