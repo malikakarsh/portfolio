@@ -26,7 +26,7 @@ function Main(){
                 <div id="div2">
                         <h2 id="hello"><span>About Me</span></h2>
                         <p>I'm an Instrumentation and Control sophomore pursuing my b.tech in National Institute of Technology, Tiruchirappalli.</p>
-                        <p>Currently a system administrator at <a href="#">Delta Force</a> (premiere coding club of NITT).</p>
+                        <p>Currently a system administrator at <a href="https://delta.nitt.edu/" target="_blank">Delta Force</a> (premiere coding club of NITT), I love reading about web different vulnerabilities and discovering bugs in web applications.</p>
                         <h3 style={{margin: "20px 10px 20px 10px"}}><span>Interests</span></h3>
                         <div id="interest_box">
                             <div id="box1">
@@ -36,7 +36,7 @@ function Main(){
                                 
                                 <p>I love playing Badminton and T.T</p>
                             </div>
-                            <div id="box2"><i className="fas fa-microphone-alt"></i>
+                            <div id="box2"><i className="fas fa-headphones-alt"></i>
                                 <hr></hr>
                                 <h4>Music</h4>
                                 <p>I enjoy singing and playing guitar</p>
@@ -52,6 +52,7 @@ function Main(){
                         <li><i class="fas fa-tools"></i> <span>System Administration</span></li>
                         <li><i class="fas fa-dna"></i> <span>Machine Learning</span></li>
                         <li><i class="fas fa-file-code"></i> <span>Front-end Web Development</span></li>
+                        <li><i class="fas fa-bug"></i> <span>Bug Hunting</span></li>
                     </ul>
                     <h3 style={{margin: "20px 10px 20px 10px"}}><span>Programming Language</span></h3>
                     <div className="interest_box2">
@@ -79,7 +80,67 @@ function Main(){
                        </ul> 
                     </div>
                     <h2 id="hello3" style={{margin: "20px 10px 20px 10px"}}><span>Projects</span></h2>
-                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Coming Soon....</span></h3>
+                    <div>
+                        <div id="header_h2">
+                            <h3 style={{margin: "20px 10px 20px 10px"}}>Extract <a href="https://github.com/malikakarsh/EXTRACT" target="_blank"><i id="arrow" class="fas fa-location-arrow"></i></a></h3>
+                            <hr></hr>
+                            <p>Extract is a primitive form of Google Tesseract which is used to extract texts from images. It is written in python using tensorflow.</p>
+                            <p id="key_concept1">Key Concepts Used:</p>
+                            <ul>
+                                <li>Convolutional Neural Networks (CNN)</li>
+                                <li>TensorFlow</li>
+                                <li>OpenCV</li>
+                                
+                            </ul>
+                        </div>
+
+                        <div id="header_h3">
+                            <h3 style={{margin: "20px 10px 20px 10px"}}>Face Recognition <a href="https://github.com/malikakarsh/Face-Recognition" target="_blank"><i id="arrow1" class="fas fa-location-arrow"></i></a></h3>
+                            <hr></hr>
+                            <p>Face Recognition uses haarcascade to detect face and Machine Learning to predict who the user is. It is written in python using Keras and Tkinter.</p>
+                            <p id="key_concept2">Key Concepts Used:</p>
+                            <ul>
+                                <li>Convolutional Neural Networks (CNN)</li>
+                                <li>Keras</li>
+                                <li>OpenCV</li>
+                                <li>Tkinter</li>
+                            </ul>
+                        </div>
+
+                        <div id="header_h4">
+                            <h3 style={{margin: "20px 10px 20px 10px"}}>Scanner <a href="https://github.com/malikakarsh/Scanner" target="_blank"><i id="arrow2" class="fas fa-location-arrow"></i></a></h3>
+                            <hr></hr>
+                            <p>A document scanner to scan sheets detecting its edges and converting them to a pdf file format. Written in python using OpenCV</p>
+                            <p id="key_concept3">Key Concepts Used:</p>
+                            <ul>
+                                <li>Numpy</li>
+                                <li>OpenCV</li>
+                                <li>Tkinter</li>
+                            </ul>
+                        </div>
+
+                        <div id="header_h5">
+                            <h3 style={{margin: "20px 10px 20px 10px"}}>Socket Programming <a href="https://github.com/malikakarsh/Sysads-Task-3" target="_blank"><i id="arrow3" class="fas fa-location-arrow"></i></a></h3>
+                            <hr></hr>
+                            <p>A messaging app to connect to different users on CLI using TCP sockets and threading.</p>
+                            <p id="key_concept4">Key Concepts Used:</p>
+                            <ul>
+                                <li>Threading</li>
+                                <li>Sockets</li>
+                            </ul>
+                        </div>
+
+                        <div id="header_h6">
+                            <h3 style={{margin: "20px 10px 20px 10px"}}>DWoC Server Maintainer <a href="https://github.com/malikakarsh/Sysads-Task-3" target="_blank"><i id="arrow4" class="fas fa-location-arrow"></i></a></h3>
+                            <hr></hr>
+                            <p>Delta Winter of Code (DWoC) is a winter long program organised by Delta Force, the coding club of NIT Trichy.</p>
+                            <p id="key_concept5">Key Concepts Used:</p>
+                            <ul>
+                                <li>System Administration</li>
+                                <li>Docker</li>
+                            </ul>
+                        </div>
+                    </div>
                     <h2 id="hello4" style={{margin: "20px 10px 20px 10px"}}><span>Achievements</span></h2>
                     <h3 style={{margin: "20px 10px 20px 10px"}}><span>Coming Soon....</span></h3>
                 </div>
