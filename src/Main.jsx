@@ -16,17 +16,17 @@ function Main(){
                     </div>
                     <div id="footer">
                         <ul>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
-                            <li><a href="#"><i className="fab fa-github"></i></a></li>
-                            <li><a href="#"><i className="fas fa-envelope"></i></a></li>
+                            <li><a href="https://twitter.com/AkarshMalik" target="_blank"><i className="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/akarsh-malik-911221193/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/malikakarsh" target="_blank"><i className="fab fa-github"></i></a></li>
+                            <li><a href="#" target="_blank"><i className="fas fa-envelope"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div id="div2">
                         <h2 id="hello"><span>About Me</span></h2>
                         <p>I'm an Instrumentation and Control sophomore pursuing my b.tech in National Institute of Technology, Tiruchirappalli.</p>
-                        <p>Currently a system administrator at <a href="https://delta.nitt.edu/" target="_blank">Delta Force</a> (premiere coding club of NITT), I love reading about web different vulnerabilities and discovering bugs in web applications.</p>
+                        <p>Currently a system administrator at <a href="https://delta.nitt.edu/" target="_blank">Delta Force</a> (premiere coding club of NITT), I love reading about different web vulnerabilities and discovering bugs in web applications.</p>
                         <h3 style={{margin: "20px 10px 20px 10px"}}><span>Interests</span></h3>
                         <div id="interest_box">
                             <div id="box1">
@@ -69,7 +69,7 @@ function Main(){
                            <li><i class="devicon-go-plain"></i> <span>Go</span></li>
                        </ul> 
                     </div>
-                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Tools and Technologies</span></h3>
+                    <h3 id="call" style={{margin: "20px 10px 20px 10px"}}><span>Tools and Technologies</span></h3>
                     <div className="interest_box2">
                        <ul>
                            <li className="special"><i class="devicon-git-plain"></i> <span>Git</span></li>
@@ -131,7 +131,7 @@ function Main(){
                         </div>
 
                         <div id="header_h6">
-                            <h3 style={{margin: "20px 10px 20px 10px"}}>DWoC Server Maintainer <a href="https://github.com/malikakarsh/Sysads-Task-3" target="_blank"><i id="arrow4" class="fas fa-location-arrow"></i></a></h3>
+                            <h3 style={{margin: "20px 10px 20px 10px"}}>DWoC Server Maintainer <a href="https://delta.nitt.edu/" target="_blank"><i id="arrow4" class="fas fa-location-arrow"></i></a></h3>
                             <hr></hr>
                             <p>Delta Winter of Code (DWoC) is a winter long program organised by Delta Force, the coding club of NIT Trichy.</p>
                             <p id="key_concept5">Key Concepts Used:</p>
@@ -142,7 +142,9 @@ function Main(){
                         </div>
                     </div>
                     <h2 id="hello4" style={{margin: "20px 10px 20px 10px"}}><span>Achievements</span></h2>
-                    <h3 style={{margin: "20px 10px 20px 10px"}}><span>Coming Soon....</span></h3>
+                    <div>
+                        <h3 style={{margin: "20px 10px 20px 10px"}}>Hacktober Fest</h3>
+                    </div>
                 </div>
             </div>
         </main>
